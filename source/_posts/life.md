@@ -1,5 +1,8 @@
 ---
 title: JavaScript 的三座大山
+index_img: /img/1.jpg
+date: 2023-1-11 12:04:00
+sticky: 100
 ---
 
 ### 1️⃣ 作用域
