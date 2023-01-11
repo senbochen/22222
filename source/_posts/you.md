@@ -1,6 +1,6 @@
 ---
 title: JavaScript 的三座大山
-index_img: /img/2.jpg
+index_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
 excerpt: 作用域 指代码当前上下文，控制着变量和函数的可见性和生命周期。最大的作用是隔离变量，不同作用域下同名变量不会冲突。
 date: 2023-1-11 12:04:00
 ---
