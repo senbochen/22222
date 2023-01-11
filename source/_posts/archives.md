@@ -5,6 +5,4 @@ banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b99
 date: 2023-1-10 10:00:00
 ---
 
-### 听一首妈妈的话
-
-[妈妈的话](https://www.bilibili.com/video/BV1fa411X7dK/?spm_id_from=333.337.search-card.all.click&vd_source=639516599ed6bf817b6a6c8eb26fb2eb)
+<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=258118133&bvid=BV1fa411X7dK&cid=761477051&page=1&autoplay=true&muted=true" scrolling="no" border="0" frameborder="no" framespacing="100" allowfullscreen="true" width="100%" height="400" muted="true"> </iframe>

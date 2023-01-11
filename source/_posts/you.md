@@ -1,17 +1,10 @@
 ---
-title: JavaScript 的三座大山
+title: 你的世界
 index_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
-excerpt: 作用域 指代码当前上下文，控制着变量和函数的可见性和生命周期。最大的作用是隔离变量，不同作用域下同名变量不会冲突。
-date: 2023-1-11 12:04:00
+banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
+date: 2023-1-10 10:00:00
 ---
 
-### 1️⃣ 作用域
+### 听一首妈妈的话
 
-作用域 指代码当前上下文，控制着变量和函数的可见性和生命周期。最大的作用是隔离变量，不同作用域下同名变量不会冲突。
-作用域链 指如果在当前作用域中没有查到值，就会向上级作用域查询，直到全局作用域，这样一个查找过程所形成的链条就被称之为作用域链。
-作用域可以堆叠成层次结构，子作用域可以访问父作用域，反之则不行。
-作用域具体可细分为四种：全局作用域、模块作用域、函数作用域、块级作用域
-全局作用域： 代码在程序的任何地方都能被访问，例如 window 对象。但全局变量会污染全局命名空间，容易引起命名冲突。
-模块作用域： 早期 js 语法中没有模块的定义，因为最初的脚本小而简单。后来随着脚本越来越复杂，就出现了模块化方案（AMD、CommonJS、UMD、ES6 模块等）。通常一个模块就是一个文件或者一段脚本，而这个模块拥有自己独立的作用域。
-函数作用域： 顾名思义由函数创建的作用域。闭包就是在该作用域下产生，后面我们会单独介绍。
-块级作用域： 由于 js 变量提升存在变量覆盖、变量污染等设计缺陷，所以 ES6 引入了块级作用域关键字来解决这些问题。典型的案例就是 let 的 for 循环和 var 的 for 循环。
+<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=258118133&bvid=BV1fa411X7dK&cid=761477051&page=1&autoplay=true&muted=true" scrolling="no" border="0" frameborder="no" framespacing="100" allowfullscreen="true" width="100%" height="400" muted="true"> </iframe>

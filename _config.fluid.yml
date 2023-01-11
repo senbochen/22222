@@ -350,6 +350,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "playlist", link: "/playlist/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
@@ -460,7 +461,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -532,7 +533,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -886,7 +887,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -897,7 +898,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -926,7 +927,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -943,7 +944,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
@@ -965,7 +966,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -976,7 +977,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -990,7 +991,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e4294d2d15b416b993d0e5768e4d503~tplv-k3u1fbpfcp-watermark.image?
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
@@ -1034,6 +1035,38 @@ links:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
     type: disqus
 
+
+
+# Whether to display the musics.
+# 是否在首页显示音乐.
+music:
+  enable: true
+  title: #非吸底模式有效
+    enable: true
+    show: 听听音乐
+  autoHide: true    # hide automaticaly
+  server: netease   #require    music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist    #require song, playlist, album, search, artist
+  id: 2621145115      #require  song id / playlist id / album id / search keyword
+  fixed: true       # 开启吸底模式
+  autoplay: false   # 是否自动播放
+  theme: '#42b983'
+  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: true  # 列表默认折叠
+  hideLrc: true     # 隐藏歌词
+
+
+aplayerInject:
+  enable: true
+  per_page: true
+
+inject:
+  head:
+  bottom:
+    - <div class="aplayer no-destroy" data-id="33887098" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" auto="1"></div>
 
 #---------------------------
 # 以下是配置 JS CSS 等静态资源的 URL 前缀，可以自定义成 CDN 地址，
