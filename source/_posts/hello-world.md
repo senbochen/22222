@@ -65,3 +65,7 @@ JavaScript 是 单线程 语言，意味着只有单独的一个调用栈，同�
 ![事件循环](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7bdd4419989d4bec8ac627480572cf84~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
 
 ---
+
+### 听一首妈妈的话
+
+[妈妈的话](https://www.bilibili.com/video/BV1fa411X7dK/?spm_id_from=333.337.search-card.all.click&vd_source=639516599ed6bf817b6a6c8eb26fb2eb)
