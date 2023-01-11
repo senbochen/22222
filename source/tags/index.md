@@ -1,4 +1,14 @@
 ---
-title: Hello World
-date: 2013/7/13 20:46:25
+categories:
+  - Diary
+tags:
+  - PS3
+  - Games
+tag:
+  tagcloud:
+    min_font: 15
+    max_font: 30
+    unit: px # 字号单位
+    start_color: '#BBBBEE'
+    end_color: '#337ab7'
 ---
